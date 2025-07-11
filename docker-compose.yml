@@ -12,7 +12,7 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   kafka:
-    image: kafka
+    image: bitnami/kafka:latest
     container_name: kafka
     environment:
       - KAFKA_CFG_NODE_ID=0

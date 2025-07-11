@@ -1,6 +1,6 @@
-import java.util.Date
+import java.util.Date;
 
-class Post {
+public class Post {
     private String postId; // primary key
     private String userId; // foreign key to user
     private String content;
